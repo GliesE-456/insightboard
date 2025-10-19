@@ -152,3 +152,5 @@ MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
 
 # Database (PostgreSQL on Render)
 DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+
+CORS_ALLOWED_ORIGINS = ['https://insightboard.vercel.app']
