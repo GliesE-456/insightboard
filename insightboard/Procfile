@@ -1,1 +1,1 @@
-web: gunicorn insightboard_backend.wsgi
+web: gunicorn insightboard_backend.wsgi --chdir backend
